@@ -9,10 +9,14 @@
     font-size: 80px;
     font-family: 'Outfit',
         sans-serif;
+        font-weight: lighter;
+    
 }
+
 .text-2 {
     font-size: 60px;
     font-family: "outfit", sans-serif;
+    font-weight: lighter;
 }
 
 /* burger menu */
@@ -49,3 +53,8 @@
     transition: bottom .3s;
 
 }
+/* position */
+/* .pos-sticky {
+    position: sticky;
+    top: 0;
+} */

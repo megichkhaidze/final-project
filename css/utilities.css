@@ -7,15 +7,40 @@
 .bg-warning
 
  /* text colors */
- /* .text-white
+/* .text-white
  .text-white-50
  .text-dark
  .text-black
  .text-body-tertiary */
 
- /* text size */
- /* .fs-1
+/* text size */
+/* .fs-1
  .fs-2
  .fs-4 
  .fs-5
- .fs-6 */ 
+ .fs-6 */
+
+/* buttons, circles and lines */
+.btn {
+    height: 70px;
+    text-transform: uppercase;
+}
+
+.sm-circle {
+    width: 45px;
+    height: 45px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.line {
+    height: 1px;
+    background-color: grey;
+    opacity: 50%;
+
+}
+.border-img {
+    height: 70px;
+    border-radius:25px;
+    background-image: ;
+}
