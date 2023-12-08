@@ -3,8 +3,9 @@
     font-family: 'Outfit',
         sans-serif;
 }
+
 .f-light {
-    font-family:'Outfit',
+    font-family: 'Outfit',
         sans-serif;
     font-weight: lighter;
 }
@@ -13,14 +14,20 @@
     font-size: 80px;
     font-family: 'Outfit',
         sans-serif;
-        font-weight: lighter;
-    
+    font-weight: lighter;
+
 }
 
 .text-2 {
     font-size: 60px;
     font-family: "outfit", sans-serif;
     font-weight: lighter;
+}
+
+.text-3 {
+    font-family: 'Outfit',
+        sans-serif;
+    font-size: 12px;
 }
 
 /* burger menu */
@@ -46,6 +53,7 @@
     background-color: white;
     display: block;
     transition: .3s;
+    position: sticky;
 }
 
 .burger-menu-nav {
@@ -57,8 +65,3 @@
     transition: bottom .3s;
 
 }
-/* position */
-/* .pos-sticky {
-    position: sticky;
-    top: 0;
-} */
