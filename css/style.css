@@ -62,6 +62,13 @@
     position: fixed;
     top: 0%;
     left: 0%;
-    transition: bottom .3s;
+    transition: none .3s;
+    display: none;
+}
 
+.burger-menu.is-open {}
+
+.burger-menu-nav.is-open {
+    display: block;
+    transition: block .3s;
 }

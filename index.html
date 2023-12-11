@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/spacing.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -21,56 +22,65 @@
 <body>
     <header class="bg-black p-3 position-relative">
         <div class="container-fluid d-flex justify-content-between align-items-center pt-4 h-100">
-            <div class="col-1 fs-2 text-white font">
+            <div class="col-1 fs-2 text-white font sticky-sm-top">
                 A.
             </div>
-            <div class="col-1">
-                <nav class="burger-menu">
-                    <span class="b-span">
+            <button class="col-1 burger-menu">
+                <span class="b-span">
 
-                    </span>
-                    <span class="b-span">
+                </span>
+                <span class="b-span">
 
-                    </span>
-                    <span class="b-span2">
+                </span>
+                <span class="b-span2">
 
-                    </span>
+                </span>
 
-                </nav>
-                <div class="bg-black d-none burger-menu-nav">
-                    <ul class="text-center fs-3 font">
-                        <li class="nav-item">
-                            <a class="nav-link" href=""></a>
-                            Homepage
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href=""></a>
-                            Portfolio
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href=""></a>
-                            Services
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href=""></a>
-                            Blog
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href=""></a>
-                            Contact
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href=""></a>
-                            Other
-                        </li>
-                    </ul>
-                </div>
+            </button>
+            <div class="bg-black burger-menu-nav">
+                <ul class="fs-3 font">
+                    <li class="nav-item">
+                        <a class="nav-link" href=""></a>
+                        Homepage
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=""></a>
+                        Portfolio
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=""></a>
+                        Services
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=""></a>
+                        Blog
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=""></a>
+                        Contact
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=""></a>
+                        Other
+                    </li>
+                </ul>
             </div>
         </div>
-
     </header>
 
     <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"
+            class="back-to-top font d-flex align-items-center">BACK
+            TO
+            TOP
+            <div class="ms-2 sm-circle bg-dark align-items-center d-flex align-items-center justify-content-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                </svg>
+            </div>
+        </button>
         <section class="container-fluid bg-black p-sm-5">
             <div class="row justify-content-between container-xl pd-bottom-1">
                 <div class="col-lg-9 ">
@@ -114,7 +124,7 @@
                     </div>
                 </div>
                 <div class="col-lg-2 text-white align-self-end text-center">
-                    <button class="btn btn-warning rounded-circle">
+                    <button class="btn btn-warning rounded-circle" onclick="scrollWin()">
                         <div class="sm-circle d-flex justify-content-center align-items-center text-warning">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-arrow-down" viewBox="0 0 16 16">
