@@ -1,6 +1,9 @@
 @media (max-width: 992px) {
-#myBtn {
-    right: -120%;
-    transition: right .3s;
-}
+    #myBtn {
+        right: -120%;
+        transition: right .3s;
+    }
+    .scroll-down {
+        display: none;
+    }
 }

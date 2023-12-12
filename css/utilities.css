@@ -20,6 +20,17 @@
  .fs-5
  .fs-6 */
 
+
+.container1 {
+    width: 100%;
+    display: flex;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+
 /* buttons, circles and lines */
 .btn {
     height: 70px;
@@ -60,6 +71,7 @@
     width: 40px;
     height: 40px;
 }
+
 .input-dark {
     opacity: 5%;
     width: 100%;
@@ -75,10 +87,9 @@
     font-size: 12px;
     border: none;
     outline: none;
-    color:black;
+    color: white;
     cursor: pointer;
     transform: rotate(-90deg);
     opacity: 80%;
     transition: right .3s;
 }
-

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/spacing.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .main {
+            display: grid;
+            align-items: center;
+            justify-items: center;
+        }
+
+        .text {
+            letter-spacing: 4px;
+        }
+    </style>
+</head>
+
+<body class="main bg-dark d-flex position-absolute">
+            <button class="btn btn-warning rounded-circle" onclick="scrollWin()">
+                <div class="sm-circle d-flex justify-content-center align-items-center text-warning">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
+                    </svg>
+                </div>
+            
+            </button>
+    <svg id="rotatingText" viewBox="0 0 200 200" width="150" height="150" >
+        <defs>
+            <path id="circle" d="M 100, 100
+            m -75, 0
+            a 75, 75 0 1, 0 150, 0
+            a 75, 75 0 1, 0 -150, 0
+            ">
+            </path>
+        </defs>
+        <text width="400">
+            <textPath alignment-baseline="top" xlink:href="#circle" class="text">
+                -scroll down - scroll down
+            </textPath>
+        </text>
+
+    </svg>
+
+    <script>
+        function scrollWin() {
+            window.scrollBy(0, 800);
+        }
+    </script>
+</body>
+
+</html>
