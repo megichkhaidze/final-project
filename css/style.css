@@ -29,19 +29,23 @@
         sans-serif;
     font-size: 12px;
 }
+
 .text-rotate {
- rotate: -90deg;
- position: fixed;
- bottom: 60px;
- left:30px;
- font-size: 12px;
- color: white;
- text-transform: uppercase;
- mix-blend-mode: difference;
+    rotate: -90deg;
+    position: fixed;
+    bottom: 60px;
+    left: 30px;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    mix-blend-mode: difference;
 }
+
 .mix-blend-mode {
     mix-blend-mode: difference;
 }
+
+
 /*header and  burger menu */
 .header-h {
     height: 80px;
@@ -104,6 +108,24 @@
     z-index: -10;
 }
 
+.burger-menu:hover .burger-menu-nav {
+    left: 0%;
+    transition: left .4s;
+}
+
+.burger-menu:hover .b-span2 {
+    display: none;
+    transition: none .3s;
+}
+
+.burger-menu:hover .b-span:nth-of-type(1) {
+    transform: rotate(-45deg) translate(.5px, 4.5px);
+}
+
+.burger-menu:hover .b-span:nth-of-type(2) {
+    transform: rotate(45deg) translate(0px, -6px);
+}
+
 /* .burger-menu.is-open .b-span2 {
     display: none;
     transition: none .3s;
@@ -119,18 +141,43 @@
     transition: left .3s;
 } */
 
-.burger-menu:hover .burger-menu-nav{
-    left: 0%;
-    transition: left .4s;
+/* hover */
+
+.border-top-h:hover {
+    border-top: 4px;
+    background-color: #ff9800;
+    transition: border .6s;
 }
 
-.burger-menu:hover .b-span2 {
-display: none;
-transition: none .3s;
+.opacity-none {
+    opacity: 0%;
+    transition: all .4s;
 }
-.burger-menu:hover .b-span:nth-of-type(1){
-transform: rotate(-45deg) translate(.5px,4.5px);
+
+/* .opacity-none:hover{
+    opacity: 100%;
+transition: all .4s;
+} */
+.circle-resize {
+    width: 10px;
+    height: 10px;
+    transition: all .4s;
 }
-.burger-menu:hover .b-span:nth-of-type(2) {
-    transform: rotate(45deg) translate(0px,-6px);
+
+/* .circle-resize:hover {
+    width: 45px;
+    height: 45px;
+    background-color: grey;
+    transition: all .4s;
+} */
+
+button.hoverable:hover :nth-child(2) {
+    opacity: 100%;
+    transition: all .4s;
+}
+
+button.hoverable:hover :nth-child(3) {
+    width: 45px;
+    height: 45px;
+    transition: all .4s;
 }

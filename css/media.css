@@ -3,7 +3,17 @@
         right: -120%;
         transition: right .3s;
     }
+
     .scroll-down {
         display: none;
+    }
+
+    .opacity-none {
+        opacity: 100%;
+    }
+
+    .circle-resize {
+        width: 45px;
+        height: 45px;
     }
 }
