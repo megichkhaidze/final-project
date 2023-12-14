@@ -1,0 +1,135 @@
+/* hover  */
+
+.border-top-h:hover {
+    border-top: 4px;
+    background-color: #ff9800;
+    transition: border .6s;
+}
+
+.opacity-none {
+    opacity: 0%;
+    transition: all .4s;
+}
+
+.circle-resize {
+    width: 10px;
+    height: 10px;
+    transition: all .4s;
+}
+
+/* .circle-resize:hover {
+    width: 45px;
+    height: 45px;
+    background-color: grey;
+    transition: all .4s;
+} */
+
+button.hoverable:hover :nth-child(2) {
+    opacity: 100%;
+    transition: all .4s;
+}
+
+button.hoverable:hover :nth-child(3) {
+    width: 45px;
+    height: 45px;
+    transition: all .4s;
+}
+
+.img-circle-hoverable {
+    border: solid 5px;
+    border-color: #e9ecef;
+    padding: 5px;
+    transition: border .6s;
+}
+
+.img-circle-hoverable:hover {
+    border-color: white;
+}
+
+.img-after-hover {
+    transition: all .6s;
+}
+
+.text-after-hover {
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    opacity: 0%;
+    transition: .6s;
+}
+
+.border-after-hover {
+    transition: all .6s;
+}
+
+.hoverable:hover .border-after-hover {
+    border-bottom: solid 6px;
+    border-color: #ff9800;
+    transform: scale(0.97);
+    transition: all .6s;
+}
+
+.hoverable:hover .img-after-hover {
+    filter: brightness(20%);
+    transition: all .6s;
+}
+
+.hoverable:hover .text-after-hover {
+    opacity: 100%;
+    transition: .6s;
+}
+
+/* keyframes */
+
+.logo-animation {
+    width: 100%;
+    position: relative;
+    animation: logo-move 10s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes logo-move {
+    0% {
+        right: -200px;
+    }
+
+    10% {
+        right: -100px;
+    }
+
+    20% {
+        right: 0px;
+    }
+
+    30% {
+        right: 100px;
+    }
+
+    40% {
+        right: 200px
+    }
+
+    50% {
+        right: 300px;
+    }
+
+    60% {
+        right: 400px;
+    }
+
+    70% {
+        right: 500px;
+    }
+
+    80% {
+        right: 600px;
+    }
+
+    90% {
+        right: 700px;
+    }
+
+    100% {
+        right: 800px;
+    }
+}

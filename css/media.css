@@ -16,4 +16,7 @@
         width: 45px;
         height: 45px;
     }
+    .none-after-media {
+        display: none;
+    }
 }
