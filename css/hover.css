@@ -78,8 +78,59 @@ button.hoverable:hover :nth-child(3) {
     opacity: 100%;
     transition: .6s;
 }
+/* z-index */
+.z-160 {
+    z-index: 160;
+}
+
 
 /* keyframes */
+.svg-animation {
+    width: 100%;
+    position: relative;
+    left:600px;
+    animation: svg-move 15s infinite;
+    animation-timing-function: linear;
+    opacity: 20%;
+    z-index: 150;
+    
+
+}
+@keyframes svg-move {
+0%{
+    top: -300px;
+}
+10%{ top:-200px;
+
+}
+20%{top:-100px;
+
+}
+30%{top:0px;
+
+}
+40%{top: 100px;
+
+}
+50%{top:200px;
+
+}
+60%{top:100px;
+
+}
+70%{top: 0px;
+
+}
+80%{top:-100px;
+
+}
+90%{top:-200px;
+
+}
+100% {
+    top:-300px;
+}
+}
 
 .logo-animation {
     width: 100%;

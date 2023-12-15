@@ -29,39 +29,19 @@
     </style>
 </head>
 
-<body class="main bg-dark d-flex position-absolute">
-            <button class="btn btn-warning rounded-circle" onclick="scrollWin()">
-                <div class="sm-circle d-flex justify-content-center align-items-center text-warning">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down"
-                        viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
-                    </svg>
-                </div>
-            
-            </button>
-    <svg id="rotatingText" viewBox="0 0 200 200" width="150" height="150" >
-        <defs>
-            <path id="circle" d="M 100, 100
-            m -75, 0
-            a 75, 75 0 1, 0 150, 0
-            a 75, 75 0 1, 0 -150, 0
-            ">
-            </path>
-        </defs>
-        <text width="400">
-            <textPath alignment-baseline="top" xlink:href="#circle" class="text">
-                -scroll down - scroll down
-            </textPath>
-        </text>
-
-    </svg>
-
-    <script>
-        function scrollWin() {
-            window.scrollBy(0, 800);
-        }
-    </script>
+<body class="main bg-light d-flex position-absolute">
+<svg height="1000" width="500">
+    <line x1="20" y1="0" x2="20" y2="915" style="stroke:grey;stroke-width:1" />
+    <line x1="170" y1="0" x2="170" y2="915" style="stroke:grey;stroke-width:1" />
+    <line x1="20" y1="0" x2="320" y2="0" style="stroke:grey;stroke-width:1" />
+    <circle cx="170" cy="151" r="150" stroke="grey" stroke-width="1" fill="none" />
+    <line x1="20" y1="305" x2="320" y2="305" style="stroke:grey;stroke-width:1" />
+    <circle cx="170" cy="458" r="150" stroke="grey" stroke-width="1" fill="none" />
+    <line x1="20" y1="612" x2="320" y2="612" style="stroke:grey;stroke-width:1" />
+    <circle cx="170" cy="765" r="150" stroke="grey" stroke-width="1" fill="none" />
+    <line x1="20" y1="915" x2="320" y2="915" style="stroke:grey;stroke-width:1" />
+    <line x1="320" y1="0" x2="320" y2="915" style="stroke:grey;stroke-width:1" />
+</svg>
 </body>
 
 </html>
