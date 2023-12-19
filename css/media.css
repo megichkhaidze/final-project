@@ -16,7 +16,43 @@
         width: 45px;
         height: 45px;
     }
+
     .none-after-media {
         display: none;
+    }
+
+    .text-2 {
+        font-size: 50px;
+    }
+
+}
+
+@media (max-width: 775.98px) {
+    .sm-circle-2 {
+        width: 30px;
+        height: 30px;
+    }
+    .text-1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .text-2 {
+        font-size: 40px;
+    }
+    .text-1 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 375px) {
+    .text-2 {
+        font-size: 30px;
+    }
+
+    .sm-circle-2 {
+        width: 20px;
+        height: 20px;
     }
 }

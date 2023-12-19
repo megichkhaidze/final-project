@@ -50,6 +50,7 @@
     color: white;
     text-transform: uppercase;
     mix-blend-mode: difference;
+    z-index: 170;
 }
 
 .mix-blend-mode {
@@ -75,7 +76,7 @@
     position: fixed;
     right: 30px;
     transition: .3s;
-    z-index: 100;
+    z-index: 170;
     mix-blend-mode: difference;
 }
 

@@ -52,8 +52,8 @@
     border-radius: 25px;
 }
 .sm-circle-2 {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 25px;
     right: 10px;
     bottom: 2px;
@@ -104,6 +104,7 @@
     transform: rotate(-90deg);
     opacity: 80%;
     transition: right .3s;
+    z-index: 170;
 }
 /* images */
 .object-fit-1 {

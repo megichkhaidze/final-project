@@ -66,18 +66,61 @@ button.hoverable:hover :nth-child(3) {
     border-bottom: solid 6px;
     border-color: #ff9800;
     transform: scale(0.97);
-    transition: all .6s;
 }
 
 .hoverable:hover .img-after-hover {
     filter: brightness(20%);
-    transition: all .6s;
 }
 
 .hoverable:hover .text-after-hover {
     opacity: 100%;
-    transition: .6s;
 }
+.input-hover{
+    transition: .3s;
+}
+.input-hover:hover {
+    opacity: 90%;
+}
+.link-hover-active {
+    transition: all .3s;
+}
+.link-hover-active:hover {
+color: #ff9800;
+margin-left: 5px;
+}
+.link-hover-active1 {
+    transition: all .2s;
+}
+
+.link-hover-active1:hover {
+    color: white;
+    margin-left: 5px;
+}
+
+.icon-hover {
+    transition: .2s;
+}
+.icon-hover:hover {
+color: #ff9800;
+}
+.object-fit {
+width: 100%;
+height: 100%;
+overflow: hidden;
+transition: all .3s;
+}
+.image-hover {
+overflow: hidden;
+height: 100%;
+width: 100%;
+transition: all .3s;
+}
+
+.image-hover:hover {
+  transform: scale(1.1);
+}
+
+
 /* z-index */
 .z-160 {
     z-index: 160;
@@ -135,7 +178,7 @@ button.hoverable:hover :nth-child(3) {
 .logo-animation {
     width: 100%;
     position: relative;
-    animation: logo-move 10s infinite;
+    animation: logo-move 15s infinite;
     animation-timing-function: linear;
 }
 
