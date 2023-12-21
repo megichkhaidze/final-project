@@ -17,13 +17,6 @@
     transition: all .4s;
 }
 
-/* .circle-resize:hover {
-    width: 45px;
-    height: 45px;
-    background-color: grey;
-    transition: all .4s;
-} */
-
 button.hoverable:hover :nth-child(2) {
     opacity: 100%;
     transition: all .4s;
@@ -75,19 +68,24 @@ button.hoverable:hover :nth-child(3) {
 .hoverable:hover .text-after-hover {
     opacity: 100%;
 }
-.input-hover{
+
+.input-hover {
     transition: .3s;
 }
+
 .input-hover:hover {
     opacity: 90%;
 }
+
 .link-hover-active {
     transition: all .3s;
 }
+
 .link-hover-active:hover {
-color: #ff9800;
-margin-left: 5px;
+    color: #ff9800;
+    margin-left: 5px;
 }
+
 .link-hover-active1 {
     transition: all .2s;
 }
@@ -100,26 +98,69 @@ margin-left: 5px;
 .icon-hover {
     transition: .2s;
 }
+
 .icon-hover:hover {
-color: #ff9800;
+    color: #ff9800;
 }
+
 .object-fit {
-width: 100%;
-height: 100%;
-overflow: hidden;
-transition: all .3s;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all .3s;
 }
+
 .image-hover {
-overflow: hidden;
-height: 100%;
-width: 100%;
-transition: all .3s;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    transition: all .3s;
 }
 
 .image-hover:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
+/* burger menu hover */
+
+.burger-menu:hover {
+    mix-blend-mode: normal;
+}
+
+.burger-menu:hover .burger-menu-nav {
+    left: 0%;
+    transition: left .4s;
+}
+
+.burger-menu:hover .b-span2 {
+    display: none;
+    transition: none .3s;
+}
+
+.burger-menu:hover .b-span:nth-of-type(1) {
+    transform: rotate(-45deg) translate(.5px, 4.5px);
+}
+
+.burger-menu:hover .b-span:nth-of-type(2) {
+    transform: rotate(45deg) translate(0px, -6px);
+}
+
+.nav-link-hover {
+    transition: all 0.3s;
+}
+
+.nav-link-hover:hover {
+    color: white;
+    margin-left: 15px;
+}
+
+.scroll-down {
+    transition: all .3s;
+}
+
+.scroll-down:hover {
+    transform: scale(1.1);
+}
 
 /* z-index */
 .z-160 {
@@ -131,48 +172,68 @@ transition: all .3s;
 .svg-animation {
     width: 100%;
     position: relative;
-    left:600px;
+    left: 600px;
     animation: svg-move 15s infinite;
     animation-timing-function: linear;
     opacity: 20%;
     z-index: 150;
-    
+
 
 }
+
 @keyframes svg-move {
-0%{
-    top: -300px;
-}
-10%{ top:-200px;
+    0% {
+        top: -300px;
+    }
 
-}
-20%{top:-100px;
+    10% {
+        top: -200px;
 
-}
-30%{top:0px;
+    }
 
-}
-40%{top: 100px;
+    20% {
+        top: -100px;
 
-}
-50%{top:200px;
+    }
 
-}
-60%{top:100px;
+    30% {
+        top: 0px;
 
-}
-70%{top: 0px;
+    }
 
-}
-80%{top:-100px;
+    40% {
+        top: 100px;
 
-}
-90%{top:-200px;
+    }
 
-}
-100% {
-    top:-300px;
-}
+    50% {
+        top: 200px;
+
+    }
+
+    60% {
+        top: 100px;
+
+    }
+
+    70% {
+        top: 0px;
+
+    }
+
+    80% {
+        top: -100px;
+
+    }
+
+    90% {
+        top: -200px;
+
+    }
+
+    100% {
+        top: -300px;
+    }
 }
 
 .logo-animation {

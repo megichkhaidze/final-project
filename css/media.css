@@ -25,6 +25,14 @@
         font-size: 50px;
     }
 
+    .logo {
+        font-size: 35px;
+    }
+
+    .burger-menu-nav {
+        font-size: 25px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 775.98px) {
@@ -32,6 +40,7 @@
         width: 30px;
         height: 30px;
     }
+
     .text-1 {
         font-size: 60px;
     }
@@ -41,6 +50,7 @@
     .text-2 {
         font-size: 40px;
     }
+
     .text-1 {
         font-size: 35px;
     }
