@@ -288,3 +288,65 @@ button.hoverable:hover :nth-child(3) {
         right: 800px;
     }
 }
+
+.circle1 {
+    transform-origin: 50% 50% 0px;
+    animation-name: spin2;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.circle2 {
+    transform-origin: 50% 50% 0px;
+    animation-name: spin1;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.circle3 {
+    transform-origin: 50% 50% 0px;
+    animation-name: spin2;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.spining-1 {
+    opacity: 50%;
+    top: -140px;
+    left: 30px;
+}
+
+.spining-2 {
+    opacity: 50%;
+    right: 0px;
+    bottom: 0px;
+}
+
+.spining-3 {
+    opacity: 50%;
+    right: 50%;
+    bottom: 0px;
+}
+
+@keyframes spin1 {
+    50% {
+        transform: rotate3d(0, 2, 1, 180deg);
+    }
+
+    100% {
+        transform: rotate3d(0, 2, 1, 360deg);
+    }
+}
+
+@keyframes spin2 {
+    50% {
+        transform: rotate3d(2, 0, 1, 180deg);
+    }
+
+    100% {
+        transform: rotate3d(2, 0, 1, 360deg);
+    }
+}

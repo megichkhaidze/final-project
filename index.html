@@ -68,9 +68,9 @@
     </header>
 
     <body>
-        <section class="container-fluid bg-black p-3 p-sm-5">
+        <section class="container-fluid bg-black p-3 p-sm-5 position-relative">
             <div class="row justify-content-between container-xl pd-bottom-1">
-                <div class="col-lg-9">
+                <div class="col-lg-9 ">
                     <p class="text-1 text-white text-capitalize font py-5 py-sm-0">
                         <b>Designing</b> a better <br> <b>world</b> today
                     </p>
@@ -83,7 +83,7 @@
                     </div>
                     <div class="row font align-items-center">
                         <button type="button"
-                            class="ms-2 ms-sm-0 my-4 my-sm-0 d-flex btn btn-warning rounded-pill align-items-center justify-content-between col-8 col-sm-5">
+                            class="z-160 ms-2 ms-sm-0 my-4 my-sm-0 d-flex btn btn-warning rounded-pill align-items-center justify-content-between col-8 col-sm-5">
                             <div class="text-btn">what we do</div>
                             <div
                                 class="ms-3 sm-circle bg-black d-flex justify-content-center align-items-center text-warning justify-senf-end">
@@ -95,7 +95,7 @@
                             </div>
                         </button>
 
-                        <button class=" ps-sm-5 col-auto d-flex text-btn text-white align-items-center">
+                        <button class="z-160 ps-sm-5 col-auto d-flex text-btn text-white align-items-center">
                             view works
                             <div
                                 class="ms-3 sm-circle bg-dark align-items-center d-flex align-items-center justify-content-center">
@@ -108,7 +108,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-lg-2 text-white align-self-end text-center scroll-down">
+                <div class="col-lg-2 text-white align-self-end text-center scroll-down z-160">
                     <button class="btn btn-warning rounded-circle" onclick="scrollWin()">
                         <div class="sm-circle d-flex justify-content-center align-items-center text-warning">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -125,6 +125,27 @@
             <p class="text-rotate d-none d-md-block">
                 HOMEPAGE
             </p>
+            <div class="position-absolute spining-1">
+                <svg height="400" width="400">
+                    <circle cx="200" cy="200" r="200" stroke="grey" stroke-width="2" fill="none" class="circle1" />
+                    <circle cx="200" cy="200" r="150" stroke="grey" stroke-width="2" fill="none" class="circle2" />
+                    <circle cx="200" cy="200" r="150" stroke="grey" stroke-width="2" fill="none" class="circle3" />
+                </svg>
+            </div>
+            <div class="position-absolute spining-2">
+                <svg height="600" width="600">
+                    <circle cx="300" cy="300" r="300" stroke="grey" stroke-width="2" fill="none" class="circle1" />
+                    <circle cx="300" cy="300" r="200" stroke="grey" stroke-width="2" fill="none" class="circle2" />
+                    <circle cx="300" cy="300" r="200" stroke="grey" stroke-width="2" fill="none" class="circle3" />
+                </svg>
+            </div>
+            <div class="position-absolute spining-3">
+                <svg height="100" width="100">
+                    <circle cx="50" cy="50" r="50" stroke="grey" stroke-width="2" fill="none" class="circle1" />
+                    <circle cx="50" cy="50" r="25" stroke="grey" stroke-width="2" fill="none" class="circle2" />
+                    <circle cx="50" cy="50" r="25" stroke="grey" stroke-width="2" fill="none" class="circle3" />
+                </svg>
+            </div>
         </section>
         <section class="bg-light container-fluid position-relative object-fit">
             <div class="position-absolute svg-animation d-none d-sm-block">
