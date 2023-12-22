@@ -177,10 +177,16 @@ button.hoverable:hover :nth-child(3) {
     animation-timing-function: linear;
     opacity: 20%;
     z-index: 150;
-
-
 }
-
+.svg-animation1 {
+    width: 100%;
+    position: relative;
+    left: 130px;
+    animation: svg-move 15s infinite;
+    animation-timing-function: linear;
+    opacity: 20%;
+    z-index: 150;
+}
 @keyframes svg-move {
     0% {
         top: -300px;
