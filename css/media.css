@@ -28,7 +28,9 @@
     .logo {
         font-size: 35px;
     }
-
+  .text-4 {
+    font-size: 28px;
+  }
     .burger-menu-nav {
         font-size: 25px;
         text-align: center;
@@ -68,4 +70,7 @@
         width: 20px;
         height: 20px;
     }
+          .text-4 {
+              font-size: 24px;
+          }
 }

@@ -29,6 +29,11 @@
         sans-serif;
     font-size: 12px;
 }
+.text-4 {
+    font-size: 35px;
+    font-family:'Outfit',
+        sans-serif; ;
+}
 
 .text-btn {
     font-family: 'Outfit',
