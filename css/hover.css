@@ -326,9 +326,9 @@ button.hoverable:hover :nth-child(3) {
 }
 
 .spining-3 {
-    opacity: 50%;
+    opacity: 30%;
     right: 50%;
-    bottom: 0px;
+    bottom: 20px;
 }
 
 @keyframes spin1 {

@@ -28,11 +28,16 @@
     display: flex;
 }
 
-/* positions */
+/* positions, margins and paddings*/
 .pos-absolute {
     position: absolute;
 }
-
+.left-0 {
+    left: 0%;
+}
+.mymb-1 {
+    margin-bottom: 150px;
+}
 
 /* buttons, circles and lines */
 .btn {
