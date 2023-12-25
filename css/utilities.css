@@ -82,6 +82,11 @@
 .round-img {
     width: 30%;
 }
+.btn-1 {
+    height: 40px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 25px;
+}
 
 /* width amd height */
 .quote-icon {
